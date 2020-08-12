@@ -1,17 +1,17 @@
-#UserManager
+# UserManager
 This module is a user manager service written by Spring(Java).
 
-##List of Features
+## List of Features
 * Manage users
 * Manage user's role
 * Manage access to resources
 
-##Dependencies
+## Dependencies
 * JDK 1.8
 * Mysql
 * Maven
 
-##Installation
+## Installation
 1.Clone project with git tool or download and extract it:
 ```shell script
 git clone https://github.com/sajadkh/stuportal-usermanager.git
@@ -36,7 +36,7 @@ stuPortal.sysAdminRole -> "System admin user"
 ./mvnw spring-boot:run
 ```
 
-##Http Endpoints
+## Http Endpoints
 ### SignUp
 ```text
 Url: http://{{ServerIP}}/signUp
@@ -60,7 +60,7 @@ Response:
 }
 ```
 
-###Login
+### Login
 ```text
 Url: http://{{ServerIP}}/login
 Method: PUT
@@ -77,7 +77,7 @@ Response:
 }
 ```
 
-###VerifyToken
+### VerifyToken
 ```text
 Url: http://{{ServerIP}}/verifyToken
 Method: POST
@@ -95,7 +95,7 @@ Response:
 }
 ```
 
-###UsersList
+### UsersList
 ```text
 Url: http://{{ServerIP}}/user
 Method: GET
@@ -117,7 +117,7 @@ Response:
 }
 ```
 
-###ChangePassword
+### ChangePassword
 ```text
 Url: http://{{ServerIP}}/changePassword
 Method: PUT
@@ -137,7 +137,7 @@ Response:
 }
 ```
 
-###HasAccess
+### HasAccess
 ```text
 Url: http://{{ServerIP}}/hasAccess
 Method: GET
@@ -156,7 +156,7 @@ Response:
 }
 ```
 
-###DeleteUser
+### DeleteUser
 ```text
 Url: http://{{ServerIP}}/user
 Method: DELETE
@@ -173,7 +173,7 @@ Response:
 }
 ```
 
-###ForgetPassword
+### ForgetPassword
 ```text
 Url: http://{{ServerIP}}/forgerPassword
 Method: PUT
@@ -189,7 +189,7 @@ Response:
 }
 ```
 
-###AddRole
+### AddRole
 ```text
 Url: http://{{ServerIP}}/role
 Method: POST
@@ -204,7 +204,7 @@ Response:
 }
 ```
 
-###GetRole
+### GetRole
 ```text
 Url: http://{{ServerIP}}/role
 Method: GET
@@ -225,7 +225,7 @@ Response:
 ]
 ```
 
-###DeleteRole
+### DeleteRole
 ```text
 Url: http://{{ServerIP}}/role
 Method: DELETE
@@ -240,7 +240,7 @@ Response:
 }
 ```
 
-###AddResource
+### AddResource
 ```text
 Url: http://{{ServerIP}}/resource
 Method: POST
@@ -255,7 +255,7 @@ Response:
 }
 ```
 
-###GetResource
+### GetResource
 ```text
 Url: http://{{ServerIP}}/resource
 Method: GET
@@ -271,7 +271,7 @@ Response:
 ]
 ```
 
-###DeleteResource
+### DeleteResource
 ```text
 Url: http://{{ServerIP}}/resource
 Method: DELETE
@@ -286,7 +286,7 @@ Response:
 }
 ```
 
-###AddAccess
+### AddAccess
 ```text
 Url: http://{{ServerIP}}/access
 Method: POST
@@ -302,7 +302,7 @@ Response:
 }
 ```
 
-###DeleteAccess
+### DeleteAccess
 ```text
 Url: http://{{ServerIP}}/access
 Method: DELETE
